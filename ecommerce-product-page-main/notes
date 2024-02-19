@@ -1,0 +1,54 @@
+<!-- <div>
+      <h4>Addition</h4>
+      <input type="text" id="num1" />
+      <input type="text" id="num2" />
+      <button onclick="total()">Total</button>
+      <p id="answer"></p>
+      <input type="text" id="inputBox" onkeyup="text()" />
+      <button onclick="parallel()">Add</button>
+      <div id="result"></div>
+      <button onclick="change()" id="color">Change color</button>
+
+      <h1 id="name"></h1>
+      <button onclick="getName(this)">Gowtham</button>
+      <button onclick="getName(this)">Hari</button>
+      <button onclick="getName(this)">Jhon</button>
+      <h1 onclick="erase(event)">One</h1>
+      <h1 onclick="erase(event)">Two</h1>
+      <h1 onclick="erase(event)">Three</h1>
+      <h1 onclick="erase(event)">Four</h1>
+      <h1 onclick="erase(event)">Five</h1>
+      <h1 onclick="erase(event)">Six</h1>
+    </div>
+    <script>
+      function erase(event) {
+        event.target.remove();
+      }
+      function getName(button) {
+        let name = document.getElementById("name");
+        name.textContent = button.textContent;
+      }
+      function change() {
+        let btn = document.getElementById("color");
+        btn.style.backgroundColor = "purple";
+      }
+      function total() {
+        let num1 = document.getElementById("num1").value;
+        let num2 = document.getElementById("num2").value;
+        let sum = parseInt(num1) + parseInt(num2);
+        let p = document.getElementById("answer");
+        p.textContent = "Sum: " + sum;
+      }
+      function text() {
+        let inputBox = document.getElementById("inputBox").value;
+        let result = document.getElementById("result");
+        result.textContent = inputBox;
+      }
+      function parallel() {
+        let inputBox = document.getElementById("inputBox").value;
+        let result = document.getElementById("result");
+        let list = document.createElement("h1");
+        list.textContent = inputBox;
+        result.append(list);
+      }
+    </script> -->
